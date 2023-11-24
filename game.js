@@ -17,6 +17,7 @@ const equal = document.getElementById('equal-to')
 
 greater.addEventListener('click', ()=>{
     if(num1.innerHTML>num2.innerHTML){
+        
         score++;
         console.log(score)
         resetTime(timerId)
@@ -60,9 +61,6 @@ equal.addEventListener('click', ()=>{
     }
    
 })
-
-
-
 
 // Iteration 4: Build a timer for the game
 
